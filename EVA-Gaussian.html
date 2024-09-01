@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projectpage of GPS-Gaussian</title>
+    <!-- Bootstrap -->
+    <link href="assets/GPS-Gaussian/css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  </head>
+
+  <!-- cover -->
+  <section>
+    <div class="jumbotron text-center mt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting<br>for Real-time Human Novel View Synthesis</h2>
+            <h4 style="color:#5a6268;">CVPR 2024 Highlight</h4>
+            <hr>
+            <h6> <a href="https://shunyuanzheng.github.io" target="_blank">Shunyuan Zheng<sup>&dagger;,1</sup></a>,
+                <a href="https://yaourtb.github.io" target="_blank">Boyao Zhou<sup>2</sup></a>,
+                <a href="https://dsaurus.github.io/saurus" target="_blank">Ruizhi Shao<sup>2</sup></a>,
+                <a href="https://liuboning2.github.io" target="_blank">Boning Liu<sup>2</sup></a>,
+                <a href="http://homepage.hit.edu.cn/zhangshengping" target="_blank">Shengping Zhang<sup>&#x2709,1,3</sup></a>,
+                <a href="https://liqiangnie.github.io" target="_blank">Liqiang Nie<sup>1</sup></a>,
+                <a href="https://liuyebin.com" target="_blank">Yebin Liu<sup>2</sup></a></h6>
+            <p><sup>1</sup>Harbin Institute of Technology<sup>&nbsp;&nbsp;&nbsp;&nbsp;2</sup>Tsinghua University<sup>&nbsp;&nbsp;&nbsp;&nbsp;3</sup>Peng Cheng Laboratory
+            <br><sup>&#x2709</sup>Corresponding author <sup>&nbsp;&nbsp;&nbsp;&nbsp;&dagger;</sup>Work done during an internship at Tsinghua University
+            </p>
+            <!-- <p>*Corresponding author</p> -->
+            <!-- <p> <a class="btn btn-secondary btn-lg" href="" role="button">Paper</a> 
+                <a class="btn btn-secondary btn-lg" href="" role="button">Code</a> 
+                <a class="btn btn-secondary btn-lg" href="" role="button">Data</a> </p> -->
+
+            <div class="row justify-content-center">
+              <div class="column">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://arxiv.org/pdf/2312.02155" role="button"  target="_blank">
+                  <i class="fa fa-file"></i> Paper</a> </p>
+              </div>
+              <div class="column">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://youtu.be/HjnBAqjGIAo" role="button"  target="_blank">
+                  <i class="fa fa-youtube"></i> Video</a></p>
+              </div>
+              <div class="column">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://github.com/ShunyuanZheng/GPS-Gaussian" role="button"  target="_blank">
+                  <i class="fa fa-github"></i> Code</a></p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3>Abstract</h3>
+            <hr style="margin-top:0px">
+<!--             <video width="90%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+                  <source src="assets/motivation.mp4" type="video/mp4">
+            </video> -->
+            <img src="assets/GPS-Gaussian/images/teaser.png" width="100%" alt=""/>
+              <!-- <br><br> -->
+          <p class="text-left"> We present a new approach, termed GPS-Gaussian, for synthesizing novel views of a character in a real-time manner. The proposed method enables 2K-resolution rendering under a sparse-view camera setting. Unlike the original Gaussian Splatting or neural implicit rendering methods that necessitate per-subject optimizations, we introduce Gaussian parameter maps defined on the source views and regress directly Gaussian Splatting properties for instant novel view synthesis without any fine-tuning or optimization. To this end, we train our Gaussian parameter regression module on a large amount of human scan data, jointly with a depth estimation module to lift 2D parameter maps to 3D space. The proposed framework is fully differentiable and experiments on several datasets demonstrate that our method outperforms state-of-the-art methods while achieving an exceeding rendering speed. 
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3>Free View Rendering</h3>
+            <hr style="margin-top:0px">
+          <h6 style="color:#8899a5"> Data collected by ourselves</h6>
+            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="assets/GPS-Gaussian/videos/zsy_freeview.mp4" type="video/mp4">
+            </video>
+          <h6 style="color:#8899a5"> Data from <a href="https://dna-rendering.github.io/" target="_blank">DNA-Rendering</a></h6>
+            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="assets/GPS-Gaussian/videos/dna173_freeview.mp4" type="video/mp4">
+            </video>
+            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="assets/GPS-Gaussian/videos/dna188_freeview.mp4" type="video/mp4">
+            </video>
+              <!-- <br><br> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h3>Live Demo</h3>
+            <hr style="margin-top:0px">
+          <h6 style="color:#8899a5"> Live demo for handling challenging hairstyles, human-object interaction and multi-person scenario</h6>
+            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="assets/GPS-Gaussian/videos/wcy_live.mp4" type="video/mp4">
+            </video>
+            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="assets/GPS-Gaussian/videos/jds_live.mp4" type="video/mp4">
+            </video>
+            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="assets/GPS-Gaussian/videos/zby_live.mp4" type="video/mp4">
+            </video>
+            <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+              <source src="assets/GPS-Gaussian/videos/multi_live.mp4" type="video/mp4">
+            </video>
+              <!-- <br><br> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+            <h3>Method</h3>
+              <hr style="margin-top:0px">
+            <img src="assets/GPS-Gaussian/images/pipeline.png" width="100%" alt=""/>
+            <p>&nbsp;</p>
+            <p>
+              <b>Overview of GPS-Gaussian.</b> Given RGB images of a human-centered scene with sparse camera views and a target novel viewpoint, we select the adjacent two views on which to formulate our Gaussian representation. We extract the image features followed by conducting an iterative depth estimation. For each source view, the depth map and the RGB image serve as a 3D position map and a color map, respectively, to formulate the Gaussian representation while the other parameters of 3D Gaussians are predicted in a pixel-wise manner. The Gaussian parameter maps defined on 2D image planes of both views are further unprojected to 3D space and aggregated for novel view rendering. The fully differentiable framework enables all networks a joint training mechanism.
+            </p>
+            <p>&nbsp;</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+            <h3>Demo Video</h3>
+            <hr style="margin-top:0px">
+            If the video does not play, please click <a href="assets/GPS-Gaussian/videos/youtube_video.mp4" target="_blank">here</a> to watch it.
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe style="clip-path: inset(1px 1px)" width="100%" height="100%" src="https://www.youtube.com/embed/HjnBAqjGIAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- citing -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+          <h3>Citation</h3>
+          <hr style="margin-top:0px">
+              <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
+<code>@inproceedings{zheng2024gpsgaussian,
+  title={GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis},
+  author={Zheng, Shunyuan and Zhou, Boyao and Shao, Ruizhi and Liu, Boning and Zhang, Shengping and Nie, Liqiang and Liu, Yebin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}</code></pre>
+          <hr>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center" style="margin-bottom:10px">
+      Thanks to <a href="https://lioryariv.github.io/" target="_blank">Lior Yariv</a> for the website template.
+  </footer>
+
+</body>
+</html>
