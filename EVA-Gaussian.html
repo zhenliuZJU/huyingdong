@@ -16,19 +16,21 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2>GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting<br>for Real-time Human Novel View Synthesis</h2>
-            <h4 style="color:#5a6268;">CVPR 2024 Highlight</h4>
+            <h2>EVA-Gaussian: 3D Gaussian-Based Real-time
+              Human Novel View Synthesis Under Arbitrary
+              Camera Settings</h2>
+            <!-- <h4 style="color:#5a6268;">CVPR 2024 Highlight</h4> -->
             <hr>
-            <h6> <a href="https://shunyuanzheng.github.io" target="_blank">Shunyuan Zheng<sup>&dagger;,1</sup></a>,
+            <h6> 
+              Anonymous
+              <!-- <a href="https://shunyuanzheng.github.io" target="_blank">Shunyuan Zheng<sup>&dagger;,1</sup></a>,
                 <a href="https://yaourtb.github.io" target="_blank">Boyao Zhou<sup>2</sup></a>,
                 <a href="https://dsaurus.github.io/saurus" target="_blank">Ruizhi Shao<sup>2</sup></a>,
                 <a href="https://liuboning2.github.io" target="_blank">Boning Liu<sup>2</sup></a>,
                 <a href="http://homepage.hit.edu.cn/zhangshengping" target="_blank">Shengping Zhang<sup>&#x2709,1,3</sup></a>,
                 <a href="https://liqiangnie.github.io" target="_blank">Liqiang Nie<sup>1</sup></a>,
-                <a href="https://liuyebin.com" target="_blank">Yebin Liu<sup>2</sup></a></h6>
-            <p><sup>1</sup>Harbin Institute of Technology<sup>&nbsp;&nbsp;&nbsp;&nbsp;2</sup>Tsinghua University<sup>&nbsp;&nbsp;&nbsp;&nbsp;3</sup>Peng Cheng Laboratory
-            <br><sup>&#x2709</sup>Corresponding author <sup>&nbsp;&nbsp;&nbsp;&nbsp;&dagger;</sup>Work done during an internship at Tsinghua University
-            </p>
+                <a href="https://liuyebin.com" target="_blank">Yebin Liu<sup>2</sup></a></h6> -->
+            <p>Hongkong University of Science and Technology</p>
             <!-- <p>*Corresponding author</p> -->
             <!-- <p> <a class="btn btn-secondary btn-lg" href="" role="button">Paper</a> 
                 <a class="btn btn-secondary btn-lg" href="" role="button">Code</a> 
@@ -36,15 +38,15 @@
 
             <div class="row justify-content-center">
               <div class="column">
-                <p class="mb-5"><a class="btn btn-large btn-light" href="https://arxiv.org/pdf/2312.02155" role="button"  target="_blank">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://zhenliuzju.github.io/huyingdong/EVA-Gaussian" role="button"  target="_blank">
                   <i class="fa fa-file"></i> Paper</a> </p>
               </div>
               <div class="column">
-                <p class="mb-5"><a class="btn btn-large btn-light" href="https://youtu.be/HjnBAqjGIAo" role="button"  target="_blank">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://zhenliuzju.github.io/huyingdong/EVA-Gaussian" role="button"  target="_blank">
                   <i class="fa fa-youtube"></i> Video</a></p>
               </div>
               <div class="column">
-                <p class="mb-5"><a class="btn btn-large btn-light" href="https://github.com/ShunyuanZheng/GPS-Gaussian" role="button"  target="_blank">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://zhenliuzju.github.io/huyingdong/EVA-Gaussian" role="button"  target="_blank">
                   <i class="fa fa-github"></i> Code</a></p>
               </div>
             </div>
@@ -65,9 +67,10 @@
 <!--             <video width="90%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
                   <source src="assets/motivation.mp4" type="video/mp4">
             </video> -->
-            <img src="assets/EVA-Gaussian/images/teaser.png" width="100%" alt=""/>
+            <!-- <iframe src="assets/EVA-Gaussian/images/visualization.pdf" style="width:100%; height:600px;"></iframe> -->
+            <img src="assets/EVA-Gaussian/images/visualization-1.png" width="90%" alt=""/>
               <!-- <br><br> -->
-          <p class="text-left"> We present a new approach, termed GPS-Gaussian, for synthesizing novel views of a character in a real-time manner. The proposed method enables 2K-resolution rendering under a sparse-view camera setting. Unlike the original Gaussian Splatting or neural implicit rendering methods that necessitate per-subject optimizations, we introduce Gaussian parameter maps defined on the source views and regress directly Gaussian Splatting properties for instant novel view synthesis without any fine-tuning or optimization. To this end, we train our Gaussian parameter regression module on a large amount of human scan data, jointly with a depth estimation module to lift 2D parameter maps to 3D space. The proposed framework is fully differentiable and experiments on several datasets demonstrate that our method outperforms state-of-the-art methods while achieving an exceeding rendering speed. 
+          <p class="text-left"> We introduce a three-stage pipeline named EVA-Gaussian for 3D human novel view synthesis across arbitrary camera settings. In the Gaussian Position Estimation stage, the position of each 3D Gaussian is estimated leveraging an Efficient cross-View Attention (EVA) module. In the Gaussian Attributes Estimation stage, the RGB image and Gaussian position map are combined for predicting 3D Gaussian attributes and feature embedding. Finally, in the Feature Refinement stage, a recurrent feature refiner is employed to address geometrical errors and enhance visual quality. Additionally, powerful regularization loss functions are incorporated for 3D Gaussian attributes and human face landmarks to enhance visual quality.
             </p>
         </div>
       </div>
@@ -75,7 +78,7 @@
   </section>
   <br>
 
-  <section>
+  <!-- <section>
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -91,15 +94,13 @@
             </video>
             <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
               <source src="assets/EVA-Gaussian/videos/dna188_freeview.mp4" type="video/mp4">
-            </video>
-              <!-- <br><br> -->
         </div>
       </div>
     </div>
   </section>
-  <br>
+  <br> -->
 
-  <section>
+  <!-- <section>
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -118,24 +119,49 @@
             <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
               <source src="assets/EVA-Gaussian/videos/multi_live.mp4" type="video/mp4">
             </video>
-              <!-- <br><br> -->
         </div>
       </div>
     </div>
   </section>
-  <br>
+  <br> -->
 
   <section>
     <div class="container">
       <div class="row">
           <div class="col-12 text-center">
-            <h3>Method</h3>
+            <h3>Method Overview</h3>
               <hr style="margin-top:0px">
-            <img src="assets/EVA-Gaussian/images/pipeline.png" width="100%" alt=""/>
+            <img src="assets/EVA-Gaussian/images/network_structure-1.png" width="80%" alt=""/>
             <p>&nbsp;</p>
-            <p>
-              <b>Overview of EVA-Gaussian.</b> Given RGB images of a human-centered scene with sparse camera views and a target novel viewpoint, we select the adjacent two views on which to formulate our Gaussian representation. We extract the image features followed by conducting an iterative depth estimation. For each source view, the depth map and the RGB image serve as a 3D position map and a color map, respectively, to formulate the Gaussian representation while the other parameters of 3D Gaussians are predicted in a pixel-wise manner. The Gaussian parameter maps defined on 2D image planes of both views are further unprojected to 3D space and aggregated for novel view rendering. The fully differentiable framework enables all networks a joint training mechanism.
+            <p class="text-left">
+              <b>Overview of EVA-Gaussian.</b> Given arbitrary sparse view images as input from surrounding of a human, EVA-Gaussian takes three stages correspondingly to estimate Gaussian position, inference Gaussian features, and finally refine the image in a recurrent manner.
             </p>
+            <p>&nbsp;</p>
+          </div>
+          <div class="col-12 text-center">
+            <h3>EVA Module</h3>
+              <hr style="margin-top:0px">
+            <img src="assets/EVA-Gaussian/images/EVA_module-1.png" width="60%" alt=""/>
+            <p>&nbsp;</p>
+            <p class="text-left">
+              Efficient cross-View Attention (EVA) module for 3D Gaussian position estimation. EVA takes multi-view image features as input, embeds them into window patches in a shifted algorithm, and at last performs cross attention for each feature. When multiple views are intended to be inferenced, we average query and key over all of the inference features using linear layers.
+            </p>
+            <p>&nbsp;</p>
+          </div>
+          <div class="col-12 text-center">
+            <h3>Regularization Loss</h3>
+              <hr style="margin-top:0px">
+            <img src="assets/EVA-Gaussian/images/face_landmark-1.png" width="80%" alt=""/>
+            <p>&nbsp;</p>
+            <p class="text-left">
+              We further propose regularization terms to enhance the human face reconstruction quality. Specifically, the proposed loss function regularizes Gaussian scales and opacity to guarantee them to be close to each other, and matches Gaussians that come from different views to force their locations to the same landmark. 
+            </p>
+            <p>&nbsp;</p>
+          </div>
+          <div class="col-12 text-center">
+            <h3>Visualization</h3>
+              <hr style="margin-top:0px">
+            <img src="assets/EVA-Gaussian/images/main_vis-1.png" width="100%" alt=""/>
             <p>&nbsp;</p>
           </div>
       </div>
@@ -143,7 +169,7 @@
   </section>
   <br>
 
-  <section>
+  <!-- <section>
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
@@ -157,7 +183,7 @@
       </div>
     </div>
   </section>
-  <br>
+  <br> -->
 
   <!-- citing -->
   <div class="container">
@@ -166,12 +192,13 @@
           <h3>Citation</h3>
           <hr style="margin-top:0px">
               <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
-<code>@inproceedings{zheng2024gpsgaussian,
+<code>
+  <!-- @inproceedings{zheng2024gpsgaussian,
   title={GPS-Gaussian: Generalizable Pixel-wise 3D Gaussian Splatting for Real-time Human Novel View Synthesis},
   author={Zheng, Shunyuan and Zhou, Boyao and Shao, Ruizhi and Liu, Boning and Zhang, Shengping and Nie, Liqiang and Liu, Yebin},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2024}
-}</code></pre>
+  year={2024}} -->
+</code></pre>
           <hr>
       </div>
     </div>
