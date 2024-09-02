@@ -34,7 +34,7 @@ Ph.D. Student. Sep. 2023 - Present<br>
 
 <tr>
 <td style="padding:20px;width:25%;vertical-align:middle;border:none" align="center">
-<img width="80" src="../images/ZJU.jfif"> 
+<img width="80" src="../images/ZJU.png"> 
 </td>
 <td style="padding:20px;width:75%;vertical-align:middle;border: none" align="left">
 Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
