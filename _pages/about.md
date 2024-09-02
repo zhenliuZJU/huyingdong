@@ -61,4 +61,4 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 
 ## Contact
 E-mail: yingdong.hu[AT]connect.ust.hk<br>
-WeChat: Tau97_Zheng
+WeChat: huyingdong_zju
