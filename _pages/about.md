@@ -22,9 +22,9 @@ My research focuses on **Fast Reconstruction and Remote Representation**, includ
 <div>
 <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;font-size: large">
 <tr>
-<td style="padding:20px;width:25%;vertical-align:middle;border:none" align="center">
-<img width="80" src="../images/HKUST.png"> 
-</td>
+<!-- <td style="padding:20px;width:25%;vertical-align:middle;border:none" align="center"> -->
+<!-- <img width="80" src="../images/HKUST.png">  -->
+<!-- </td> -->
 <td style="padding:20px;width:75%;vertical-align:middle;border: none" align="left">
 Ph.D. Student. Sep. 2023 - Present<br>
 <a href="https://ece.hkust.edu.hk/">Electrical and Computer Engineering</a><br>
@@ -33,9 +33,9 @@ Ph.D. Student. Sep. 2023 - Present<br>
 </tr>
 
 <tr>
-<td style="padding:20px;width:25%;vertical-align:middle;border:none" align="center">
-<img width="80" src="../images/ZJU.png"> 
-</td>
+<!-- <td style="padding:20px;width:25%;vertical-align:middle;border:none" align="center"> -->
+<!-- <img width="80" src="../images/ZJU.png">  -->
+<!-- </td> -->
 <td style="padding:20px;width:75%;vertical-align:middle;border: none" align="left">
 Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 <a href="https://www.cse.zju.edu.cn">Automation</a><br>
@@ -49,7 +49,7 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 
 ## Research
 
-<img align="left" width="100" height="100" src="../images/EVA-Gaussian.png" style="padding-right:20px; padding-top:20px"/>
+<!-- <img align="left" width="100" height="100" src="../images/EVA-Gaussian.png" style="padding-right:20px; padding-top:20px"/> -->
 
 <b>EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Arbitrary Camera Settings
 <font color="#dd0000">(Submitted)</font></b><br><br>
