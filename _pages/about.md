@@ -27,7 +27,7 @@ My research focuses on **Fast Reconstruction and Remote Representation**, includ
 <!-- </td> -->
 <td style="padding:20px;width:75%;vertical-align:middle;border: none" align="left">
 Ph.D. Student. Sep. 2023 - Present<br>
-<a href="https://ece.hkust.edu.hk/">Electrical and Computer Engineering</a><br>
+<a href="https://ece.hkust.edu.hk/">Electronic and Computer Engineering</a><br>
 <a href="https://hkust.edu.hk/">Hongkong University of Science and Technology</a><br>
 </td>
 </tr>
@@ -53,12 +53,14 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 
 <b>EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Arbitrary Camera Settings<font color="#dd0000">(Submitted)</font><br>
 </b><br>
-<b>Yingdong Hu</b>, [Zhening Liu](), [Jiawei Shao](), [Zehong Lin](), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
+<b>Yingdong Hu</b>, [Zhening Liu](https://liuzhening111.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
 [<i class="fas fa-fw fa-globe"></i>Project](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
 [<i class="fas fa-fw fa-file-pdf"></i>Paper](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
 [<i class="fab fa-fw fa-github fa-github"></i>Code](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
 [<i class="fas fa-fw fa-video"></i>Video](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian)<br>
 
+### Other Publication
+
 ## Contact
-E-mail: yingdong.hu[AT]connect.ust.hk<br>
+E-mail: first name.last name[AT]connect.ust.hk<br>
 WeChat: huyingdong_zju
