@@ -11,7 +11,7 @@ redirect_from:
 <!-- * B.S. in Communication Engineering, Hefei University of Technology, 2019
 * M.S. in Computer Science and Technology, Harbin Institute of Technology, 2021
 * Ph.D. in Computer Science and Technology, Harbin Institute of Technology, 2025 (expected) -->
-Hi, this is Yingdong Hu. I am a second-year (2023~) Ph.D. student in Electrical and Computer Engineering, the Hongkong University of Science and Technology, advised by Prof. [Jun ZHANG](https://eejzhang.people.ust.hk/home.html).
+Hi, this is Yingdong Hu. I am a second-year (2023~) Ph.D. student in Electronic and Computer Engineering department, the Hongkong University of Science and Technology, advised by Prof. [Jun ZHANG](https://eejzhang.people.ust.hk/home.html).
 My research focuses on **Fast Reconstruction and Remote Representation**, including fast and dense 3D reconstruction, 3D streaming, holographic communication, etc.
 
 **I'm looking for cooperation in human reconstruction. Under/post-graduated students with interests are all welcome!!!**
@@ -50,7 +50,7 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 ## Research
 
 <!-- <img align="left" width="100" height="100" src="../images/EVA-Gaussian.png" style="padding-right:20px; padding-top:20px"/> -->
-
+### Holographic Communication System
 <b>EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Arbitrary Camera Settings<font color="#dd0000">(Submitted)</font><br>
 </b><br>
 <b>Yingdong Hu</b>, [Zhening Liu](https://liuzhening111.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
