@@ -1,13 +1,10 @@
 # main links links
 main:
   - title: "Bio"
-    url: "https://zhenliuzju.github.io/huyingdong"
+    url: "https://zhenliuzju.github.io/huyingdong/"
 
-  - title: "Research"
-    url: "https://zhenliuzju.github.io/huyingdong"
+  - title: "News"
+    url: /news/
 
-  - title: "Talk"
-    url: "https://zhenliuzju.github.io/huyingdong"
-
-  - title: "Contact"
-    url: "https://zhenliuzju.github.io/huyingdong"
+  - title: "Leisure"
+    url: /leisure/
