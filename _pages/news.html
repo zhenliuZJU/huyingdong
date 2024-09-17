@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<body>
+---
+layout: archive
+title: "News"
+permalink: /news/
+author_profile: true
+---
 
-    <h1>News</h1>
-    <ul>
-        <li>9.2024 Paper EVA-Gaussian submitted to ICLR 2025;</li>
-    </ul>
+{% if site.talkmap_link == true %}
 
-</body>
-</html>
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
