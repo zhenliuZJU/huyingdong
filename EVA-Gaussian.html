@@ -70,7 +70,7 @@
             <!-- <iframe src="assets/EVA-Gaussian/images/visualization.pdf" style="width:100%; height:600px;"></iframe> -->
             <img src="assets/EVA-Gaussian/images/visualization-1.png" width="90%" alt=""/>
               <!-- <br><br> -->
-          <p class="text-left">We propose a three-stage pipeline named EVA-Gaussian for 3D human novel view synthesis across diverse camera settings. Specifically, we first introduce an Efficient cross-View Attention (EVA) module to accurately estimate the position of each 3D Gaussian. Then, we integrate the RGB image with the Gaussian position map to predict the attributes and feature embeddings of the 3D Gaussians. Finally, we employ a recurrent feature refiner to correct geometrical errors and enhance visual fidelity. To further improve synthesis quality, we incorporate powerful anchor loss functions for both 3D Gaussian attributes and human face landmarks. Experimental results on the THuman2.0 and THumansit datasets showcase the superiority of our EVA-Gaussian approach in rendering quality across diverse camera settings.
+          <p class="text-left">We propose a three-stage pipeline named EVA-Gaussian for 3D human novel view synthesis across diverse camera settings. Specifically, we first introduce an Efficient cross-View Attention (EVA) module to accurately estimate the position of each 3D Gaussian from the source images. Then, we integrate the source images with the estimated Gaussian position map to predict the attributes and feature embeddings of the 3D Gaussians. Finally, we employ a recurrent feature refiner to correct artifacts caused by geometric errors in position estimation and enhance visual fidelity. To further improve synthesis quality, we incorporate a powerful anchor loss function for both 3D Gaussian attributes and human face landmarks. Experimental results on the THuman2.0 and THumansit datasets showcase the superiority of our EVA-Gaussian approach in rendering quality across diverse camera settings.
             </p>
         </div>
       </div>
@@ -127,7 +127,7 @@
             <img src="assets/EVA-Gaussian/images/network_structure-1.png" width="80%" alt=""/>
             <p>&nbsp;</p>
             <p class="text-left">
-              <b>Overview of EVA-Gaussian.</b> Given arbitrary sparse view images as input from surrounding of a human, EVA-Gaussian takes three stages correspondingly to estimate Gaussian position, inference Gaussian features, and finally refine the image in a recurrent manner.
+              <b><strong> Overview of EVA-Gaussian</strong></b>. EVA-Gaussian takes sparse-view images captured around a human subject as input and performs three key stages: (1) estimating the positions of 3D Gaussians, (2) inferring the remaining attributes (i.e., opacities, scales, quaternions, and features) of these Gaussians, and (3) refining the output image in a recurrent manner
             </p>
             <p>&nbsp;</p>
           </div>
@@ -137,7 +137,7 @@
             <img src="assets/EVA-Gaussian/images/EVA_module-1.png" width="60%" alt=""/>
             <p>&nbsp;</p>
             <p class="text-left">
-              Efficient cross-View Attention (EVA) module for 3D Gaussian position estimation. EVA takes multi-view image features as input, embeds them into window patches in a shifted algorithm, and at last performs cross attention for each feature. When multiple views are intended to be inferenced, we average query and key over all of the inference features using linear layers.
+              <b><strong>Efficient cross-View Attention (EVA)</strong></b> module for 3D Gaussian position estimation. EVA takes multi-view image features as input, embeds them into window patches using a shifted algorithm, and performs cross-view attention between the features from different views.
             </p>
             <p>&nbsp;</p>
           </div>
@@ -147,8 +147,7 @@
             <img src="assets/EVA-Gaussian/images/face_landmark-1.png" width="80%" alt=""/>
             <p>&nbsp;</p>
             <p class="text-left">
-              We further propose regularization terms to enhance the human face reconstruction quality. Specifically, the proposed loss function regularizes Gaussian scales and opacity to guarantee them to be close to each other, and matches Gaussians that come from different views to force their locations to the same landmark. 
-            </p>
+              Attribute regularization. We regularize the opacities and scales of Gaussians, as well as the position mismatches among the Gaussians in the landmark collection. The optimization of position mismatch when it falls below a specific tolerance.</p>
             <p>&nbsp;</p>
           </div>
           <div class="col-12 text-center">
