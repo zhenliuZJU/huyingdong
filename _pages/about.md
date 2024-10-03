@@ -55,7 +55,7 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 <!-- </b><br> -->
 <br><b>Yingdong Hu</b>, [Zhening Liu](https://liuzhening111.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
 [<i class="fas fa-fw fa-globe"></i>Project](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
-[<i class="fas fa-fw fa-file-pdf"></i>Paper](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
+[<i class="fas fa-fw fa-file-pdf"></i>Paper](https://arxiv.org/pdf/2410.01425) /
 [<i class="fab fa-fw fa-github fa-github"></i>Code](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
 [<i class="fas fa-fw fa-video"></i>Video](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian)<br>
 
