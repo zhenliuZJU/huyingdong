@@ -61,8 +61,17 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 
 ### Other Publication
 
+#### 3D Content Streaming
+- &#x1F4DA; Dynamics-Aware Gaussian Splatting Streaming Towards Fast On-the-Fly Training for 4D Reconstruction<font color="#dd0000">(Submitted)</font>
+<!-- </b><br> -->
+<br>[Zhening Liu](https://liuzhening111.github.io/), <b>Yingdong Hu</b>, [Xinjie Zhang](https://xinjie-q.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
+[<i class="fas fa-fw fa-globe"></i>Project](https://www.liuzhening.top/DASS) /
+[<i class="fas fa-fw fa-file-pdf"></i>Paper](https://arxiv.org/abs/2411.14847) /
+[<i class="fab fa-fw fa-github fa-github"></i>Code](https://github.com/LIUZhening111/DASS) /
+[<i class="fas fa-fw fa-video"></i>Video](https://youtu.be/4ZUTpI6WRdQ)<br>
+
 ## Contact
-E-mail: first name.last name[AT]connect.ust.hk<br>
+E-mail: first name last name[AT]connect.ust.hk<br>
 WeChat: huyingdong_zju
 
 <div style="width: 25%; height: 300px; overflow: hidden;">
