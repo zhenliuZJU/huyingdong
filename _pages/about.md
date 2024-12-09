@@ -74,7 +74,7 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 - &#x1F4DA; WRF-GS: Wireless Radiation Field Reconstruction with 3D Gaussian Splatting, INFOCOM 2025 <font color="#dd0000">(CCF A)</font>
 <!-- </b><br> -->
 <br>Chaozheng Wen, [Jinwen Tong](https://jwentong.github.io/), <b>Yingdong Hu</b>, [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
-[<i class="fas fa-fw fa-file-pdf"></i>Paper(Coming)](https://zhenliuzju.github.io/huyingdong/)<br>
+[<i class="fas fa-fw fa-file-pdf"></i>Paper](https://arxiv.org/abs/2412.04832)<br>
 
 ## Contact
 E-mail: first name last name[AT]connect.ust.hk<br>
