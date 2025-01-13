@@ -1,8 +1,5 @@
 # main links links
 main:
-  - title: "Bio"
-    url: "https://zhenliuzju.github.io/huyingdong/"
-
   - title: "News"
     url: /news/
 
