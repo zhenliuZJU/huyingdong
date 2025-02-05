@@ -14,7 +14,7 @@ redirect_from:
 Hi, this is Yingdong Hu. I am a second-year (2023~) Ph.D. student in Electronic and Computer Engineering department, the Hongkong University of Science and Technology, advised by Prof. [Jun ZHANG](https://eejzhang.people.ust.hk/home.html).
 My research focuses on **Fast Reconstruction and Remote Representation**, including fast and dense 3D reconstruction, 3D streaming, holographic communication, etc.
 
-- &#x1F525; **I'm looking for internship opportunities in human-centric reconstruction!!!**
+<!-- - &#x1F525; **I'm looking for internship opportunities in human-centric reconstruction!!!** -->
 
 
 ## Background
