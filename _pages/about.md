@@ -45,6 +45,10 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 </table>    
 </div>
 
+## Internship
+
+<b>2025.4 - Now,</b> Tongyi Lab, Alibaba, mentored by Dr.[Yisheng He](https://hyshkust.github.io/) and Dr.[Zilong Dong](https://baike.baidu.com/item/%E8%91%A3%E5%AD%90%E9%BE%99/62931048).
+
 
 
 <!-- ## Research -->
