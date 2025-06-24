@@ -12,7 +12,7 @@ redirect_from:
 * M.S. in Computer Science and Technology, Harbin Institute of Technology, 2021
 * Ph.D. in Computer Science and Technology, Harbin Institute of Technology, 2025 (expected) -->
 Hi, this is Yingdong Hu. I am a second-year (2023~) Ph.D. student in Electronic and Computer Engineering department, the Hongkong University of Science and Technology, advised by Prof. [Jun ZHANG](https://eejzhang.people.ust.hk/home.html).
-My research focuses on **Fast Reconstruction and Remote Representation**, including fast and dense 3D reconstruction, 3D streaming, holographic communication, etc.
+My research focuses on **3D/4D Reconstruction, Delivery and Present**, including feed forward 3D/4D reconstruction, 3D streaming, holographic communication, etc.
 
 <!-- - &#x1F525; **I'm looking for internship opportunities in human-centric reconstruction!!!** -->
 
@@ -54,7 +54,7 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 <!-- ## Research -->
 
 <!-- <img align="left" width="100" height="100" src="../images/EVA-Gaussian.png" style="padding-right:20px; padding-top:20px"/> -->
-## Holographic Communication System
+## Fast 3D/4D Reconstruction
 - &#x1F4DA; EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Diverse Camera Settings<font color="#dd0000">(Submitted)</font>
 <!-- </b><br> -->
 <br><b>Yingdong Hu</b>, [Zhening Liu](https://liuzhening111.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
@@ -63,9 +63,6 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 [<i class="fab fa-fw fa-github fa-github"></i>Code](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
 [<i class="fas fa-fw fa-video"></i>Video](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian)<br>
 
-## Other Publication
-
-### 3D Content Streaming
 - &#x1F4DA; Dynamics-Aware Gaussian Splatting Streaming Towards Fast On-the-Fly Training for 4D Reconstruction<font color="#dd0000">(Submitted)</font>
 <!-- </b><br> -->
 <br>[Zhening Liu](https://liuzhening111.github.io/), <b>Yingdong Hu</b>, [Xinjie Zhang](https://xinjie-q.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
@@ -73,6 +70,9 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 [<i class="fas fa-fw fa-file-pdf"></i>Paper](https://arxiv.org/abs/2411.14847) /
 [<i class="fab fa-fw fa-github fa-github"></i>Code](https://github.com/LIUZhening111/DASS) /
 [<i class="fas fa-fw fa-video"></i>Video](https://youtu.be/4ZUTpI6WRdQ)<br>
+
+
+## Other Publication
 
 ### 3D Gaussian for Wireless Communication
 - &#x1F4DA; WRF-GS: Wireless Radiation Field Reconstruction with 3D Gaussian Splatting, INFOCOM 2025 <font color="#dd0000">(CCF A)</font>
