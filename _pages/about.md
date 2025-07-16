@@ -55,7 +55,7 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 
 <!-- <img align="left" width="100" height="100" src="../images/EVA-Gaussian.png" style="padding-right:20px; padding-top:20px"/> -->
 ## Fast 3D/4D Reconstruction
-- &#x1F4DA; EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Diverse Camera Settings<font color="#dd0000">(Submitted)</font>
+- &#x1F4DA; EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Diverse Camera Settings<font color="#dd0000">(ICCV Workshop 2025)</font>
 <!-- </b><br> -->
 <br><b>Yingdong Hu</b>, [Zhening Liu](https://liuzhening111.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
 [<i class="fas fa-fw fa-globe"></i>Project](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian) /
