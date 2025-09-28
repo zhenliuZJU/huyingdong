@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse Videos">
+  <meta property="og:title" content="Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse Videos"/>
+  <meta property="og:description" content="Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse Videos"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/teaser.pdf" />
+  <meta property="og:image:width" content="1808"/>
+  <meta property="og:image:height" content="1014"/>
+
+
+  <meta name="twitter:title" content="Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse Videos">
+  <meta name="twitter:description" content="Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse Videos">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/framework.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Motion Generation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Foge4D</title>
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JHTFKVMFDL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JHTFKVMFDL');
+</script>
+  
+  <link rel="icon" type="image/x-icon" href="static/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://github.com/aigc3d">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://zhenliuzju.github.io/huyingdong/EVA-Gaussian">
+            EVA-Gaussian
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <img src="static/images/logo.png" alt="Forge4D" width="75" height="75">
+            <h1 class="title is-1 publication-title">Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse Videos</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://zhenliuzju.github.io/huyingdong/" target="_blank">Yingdong Hu</a>*<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://hyshkust.github.io/" target="_blank">Yisheng He</a>*†<sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://jinnan-chen.github.io/" target="_blank">Jinnan Chen</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://weihao-yuan.com/" target="_blank">Weihao Yuan</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://sites.google.com/site/kejieqiujack/home" target="_blank">Kejie Qiu</a><sup>2</sup>,
+              </span>
+              <br>
+              <span class="author-block">
+                <a href="https://zhlinup.github.io/" target="_blank">Zehong Lin</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://sites.google.com/site/zhusiyucs/home" target="_blank">Siyu Zhu</a><sup>4</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=GHOQKCwAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank">Zilong Dong</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://eejzhang.people.ust.hk/">Jun Zhang</a><sup>1</sup>
+              </span>            
+            </div>
+	    
+	    <div class="is-size-5 publication-authors">
+              <span class="eql-cntrb"><large><br>1 HKUST &nbsp &nbsp 2 Tongyi Lab, Alibaba Group &nbsp &nbsp 3 NUS &nbsp &nbsp 4 FDU</large></span> <br>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="eql-cntrb">* Equal Contribution &nbsp &nbsp † Corresponding Author</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <!-- <div class="publication-links"> AAA </div> -->
+
+              <!-- Arxiv link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2502.17796" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+            </span>
+
+            <!-- Video link -->
+            <span class="link-block">
+              <a href="https://youtu.be/FrfE3RYSKhk" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-youtube"></i>
+                </span>
+                <span>Bilibili</span>
+              </a>
+            </span>
+
+            <!-- Github link -->
+            <span class="link-block">
+              <a href="https://github.com/zhenliuZJU/Forge4D" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code<span>
+              </a>
+            </span>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <center><img src="./static/images/teaser.png" alt="Alternative Text" width=90% class="center"></center>
+      <!-- <h2 class="subtitle has-text-centered"> -->
+        <p style="text-align: left; width: 820px; margin: 0 auto; background-color: #f9f9f9; padding: 10px; border-radius: 5px;">
+          🔥 &nbsp <strong>Feed-forward 3D human reconstruction and streaming with superme novel view image quality and high generalization ability.</strong><br>
+          🔥 &nbsp <strong>Efficient free-time 3D Gaussian interpolation with minimal temporal redundancy.</strong><br>
+          🔥 &nbsp <strong>Accurate human motion and metric scale prediction.</strong><br>
+        </p>
+      <!-- </h2> -->
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-centered">
+          <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="100%">
+            <source src="./static/videos/teaser.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- <img src="static/images/framework.pdf" alt="MY ALT TEXT"/> -->
+          <p>
+            Instant reconstruction of dynamic 3D humans from uncalibrated sparse-view videos is critical for numerous downstream applications. Existing methods, however, are either limited by the slow reconstruction speeds or incapable of generating novel-time representations. To address these challenges, we propose Forge4D, a feed-forward 4D human reconstruction and interpolation model that efficiently reconstructs temporally aligned representations from uncalibrated sparse-view videos, enabling both novel view and novel time synthesis. Our model simplifies the 4D reconstruction and interpolation problem as a joint task of streaming 3D Gaussian reconstruction and dense motion prediction. For the task of streaming 3D Gaussian reconstruction, we first reconstruct static 3D Gaussians from uncalibrated sparse-view images and then introduce learnable state tokens to enforce temporal consistency in a memory-friendly manner by interactively updating shared information across different timestamps. To overcome the lack of the ground truth for dense motion supervision, we formulate dense motion prediction as a dense point matching task and introduce a self-supervised retargeting loss to optimize this module. An additional occlusion-aware optical flow loss is introduced to ensure motion consistency with plausible human movement, providing stronger regularization. Extensive experiments demonstrate the effectiveness of our model on both in-domain and out-of-domain datasets.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+    <!-- Animation. -->
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <center> <h2 class="title is-3">Feed-forward streaming 4D content creation</h2>  </center>
+        <div class="content has-text-justified">
+          <p>
+                                                                                              
+                                         
+          </p>
+        </div>
+
+        <!-- text-generated. -->
+        <center> <h3 class="title is-4">3D Reconstruction</h3> </center>
+        <div class="content has-text-justified">
+          <p>
+            Using Forge4D, you can reconstruct high-quality 3D Gaussian assets in metric scale from uncalibrated sparse-view images in one feed-forward inference.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+	  <div class="reconstruction-indicator">
+	    <div class="icon-container">
+	      <i class="fas fa-tools"></i>
+	      <i class="fas fa-video"></i>
+	      <i class="fas fa-cogs"></i>
+	    </div>
+	    <p class="reconstruction-text">Video under reconstruction...</p>
+	  </div>
+        <!--/ text-generated. -->
+
+        <!-- image-2-image-transfer. -->
+        <center> <h3 class="title is-4">Streaming</h3> </center>
+	<div class="content has-text-justified">
+	  <p>
+	    Forge4D can handle streaming videos as input and generate temporally aligned 3D Gaussians for each instant frame as output.
+	  </p>
+	</div>
+	<div class="content has-text-centered">
+	  <div class="reconstruction-indicator">
+	    <div class="icon-container">
+	      <i class="fas fa-tools"></i>
+	      <i class="fas fa-video"></i>
+	      <i class="fas fa-cogs"></i>
+	    </div>
+	    <p class="reconstruction-text">Video under reconstruction...</p>
+	  </div>
+        <!--/ <video id="replay-video"
+                 controls
+                 muted
+                 preload
+                 playsinline
+                 width="75%">
+            <source src="./static/videos/stylized.mp4"
+                    type="video/mp4">
+          </video> -->
+          
+        <!-- image-2-image-transfer. -->
+
+        <!-- cross-platforms. -->
+        <center> <h3 class="title is-4">Free-time interpolation and Free-viewpoint rendering</h3> </center>
+        <div class="content has-text-justified">
+          <p>
+             Forge4D can interpolate 3D Gaussians at key-frames to any middle timestamps, utilizing an accurate human motion prediction procedure and an occlusion-aware Gaussian Fusion process. The motion prediction is modeled as 3D Gaussian matching process and trained in a self-supervised manner.
+          </p>
+        </div>
+       <div class="content has-text-centered">
+	  <div class="reconstruction-indicator">
+	    <div class="icon-container">
+	      <i class="fas fa-tools"></i>
+	      <i class="fas fa-video"></i>
+	      <i class="fas fa-cogs"></i>
+	    </div>
+	    <p class="reconstruction-text">Video under reconstruction...</p>
+	  </div>
+        
+</section>
+
+
+
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <center> <h2 class="title is-3">More Results</h2> </center>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/cross_1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/cross_2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/cross_3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/cross_4.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline width="100%">
+            <source src="./static/videos/cross_5.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+<pre><code>
+    </code></pre>
+  </div>
+</section>
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
