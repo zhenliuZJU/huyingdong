@@ -8,10 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<!-- * B.S. in Communication Engineering, Hefei University of Technology, 2019
-* M.S. in Computer Science and Technology, Harbin Institute of Technology, 2021
-* Ph.D. in Computer Science and Technology, Harbin Institute of Technology, 2025 (expected) -->
-Hi, this is Yingdong Hu. I am a second-year (2023~) Ph.D. student in Electronic and Computer Engineering department, the Hongkong University of Science and Technology, advised by Prof. [Jun ZHANG](https://eejzhang.people.ust.hk/home.html).
+Hi, this is Yingdong Hu. I am a third-year (2023~) Ph.D. student in Electronic and Computer Engineering department, the Hongkong University of Science and Technology, advised by Prof. [Jun ZHANG](https://eejzhang.people.ust.hk/home.html).
 My research focuses on **3D/4D Reconstruction, Delivery and Present**, including feed forward 3D/4D reconstruction, 3D streaming, holographic communication, etc.
 
 <!-- - &#x1F525; **I'm looking for internship opportunities in human-centric reconstruction!!!** -->
@@ -55,6 +52,14 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 
 <!-- <img align="left" width="100" height="100" src="../images/EVA-Gaussian.png" style="padding-right:20px; padding-top:20px"/> -->
 ## Fast 3D/4D Reconstruction
+- &#x1F4DA; Forge4D: Feed-Forward 4D Human Reconstruction and Interpolation from Uncalibrated Sparse Videos<font color="#dd0000"></font>
+<!-- </b><br> -->
+<br><b>Yingdong Hu*</b>, [Yisheng He*†](https://hyshkust.github.io/), [Jinnan Chen](https://jinnan-chen.github.io/), [Weihao Yuan](https://weihao-yuan.com/), [Kejie Qiu](https://sites.google.com/site/kejieqiujack/home), [Zehong Lin](https://zhlinup.github.io/), [Siyu Zhu](https://sites.google.com/site/zhusiyucs/home), [Zilong Dong](https://scholar.google.com/citations?user=GHOQKCwAAAAJ&amp;hl=zh-CN&amp;oi=ao), [Jun Zhang](https://eejzhang.people.ust.hk/)<br>
+[<i class="fas fa-fw fa-globe"></i>Project](https://zhenliuzju.github.io/huyingdong/Forge4D) /
+[<i class="fas fa-fw fa-file-pdf"></i>Paper](https://arxiv.org/abs/2509.24209) /
+[<i class="fab fa-fw fa-github fa-github"></i>Code](https://github.com/zhenliuZJU/Forge4D) /
+[<i class="fas fa-fw fa-video"></i>Video](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian)<br>
+
 - &#x1F4DA; EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Diverse Camera Settings<font color="#dd0000">(ICCV Workshop 2025)</font>
 <!-- </b><br> -->
 <br><b>Yingdong Hu</b>, [Zhening Liu](https://liuzhening111.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
