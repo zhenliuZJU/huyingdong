@@ -58,7 +58,7 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 [<i class="fas fa-fw fa-globe"></i>Project](https://zhenliuzju.github.io/huyingdong/Forge4D) /
 [<i class="fas fa-fw fa-file-pdf"></i>Paper](https://arxiv.org/abs/2509.24209) /
 [<i class="fab fa-fw fa-github fa-github"></i>Code](https://github.com/zhenliuZJU/Forge4D) /
-[<i class="fas fa-fw fa-video"></i>Video](https://zhenliuzju.github.io/huyingdong/EVA-Gaussian)<br>
+[<i class="fas fa-fw fa-video"></i>Video](https://www.bilibili.com/video/BV1uFn1zCExG/?spm_id_from=333.337.search-card.all.click)<br>
 
 - &#x1F4DA; EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Diverse Camera Settings<font color="#dd0000">(ICCV Workshop 2025)</font>
 <!-- </b><br> -->
