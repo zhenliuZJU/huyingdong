@@ -60,6 +60,11 @@ Bachelor of Engineering. Sep. 2019 - Jun. 2023<br>
 [<i class="fab fa-fw fa-github fa-github"></i>Code](https://github.com/zhenliuZJU/Forge4D) /
 [<i class="fas fa-fw fa-video"></i>Video](https://www.bilibili.com/video/BV1uFn1zCExG/?spm_id_from=333.337.search-card.all.click)<br>
 
+- &#x1F4DA; PanoLAM: Large Avatar Model for Gaussian Full-Head Synthesis from One-shot Unposed Image<font color="#dd0000"></font>
+<!-- </b><br> -->
+<br> Peng Li, [Yisheng He](https://hyshkust.github.io/), <b>Yingdong Hu</b>, Yuan Dong, [Weihao Yuan](https://weihao-yuan.com/), Yuan Liu, [Zilong Dong](https://scholar.google.com/citations?user=GHOQKCwAAAAJ&amp;hl=zh-CN&amp;oi=ao), Yike Guo<br>
+[<i class="fas fa-fw fa-file-pdf"></i>Paper](https://arxiv.org/abs/2509.07552)<br>
+
 - &#x1F4DA; EVA-Gaussian: 3D Gaussian-Based Real-time Human Novel View Synthesis Under Diverse Camera Settings<font color="#dd0000">(ICCV Workshop 2025)</font>
 <!-- </b><br> -->
 <br><b>Yingdong Hu</b>, [Zhening Liu](https://liuzhening111.github.io/), [Jiawei Shao](https://shaojiawei07.github.io/), [Zehong Lin](https://zhlinup.github.io/), [Jun Zhang](https://eejzhang.people.ust.hk/home.html)<br>
