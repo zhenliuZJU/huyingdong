@@ -6,11 +6,6 @@ author_profile: true
 ---
 Beginner of Astrophotography
 
-<figure style="text-align: center; margin: 30px 0;">
-    <img src="./images/mono_10_6_25.jpg" 
-         alt="moon on Mid-Autumn day 2025" 
-         style="max-width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <figcaption style="font-style: italic; margin-top: 15px; color: #666;">
-        moon on Mid-Autumn day 2025
-    </figcaption>
-</figure>
+{% for post in site.photos %}
+  {% include archive-single.html %}
+{% endfor %}
